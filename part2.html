@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Bootstrap Mocks - Part 2</title>
+    <script
+      src="https://kit.fontawesome.com/2676fa3907.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">Logo</a>
+      <div class="navbar-expand">
+        <ul class="navbar-nav mr-auto">
+          <!-- mr auto pushes nav links to the right -->
+          <li class="nav-item active">
+            <a class="nav-link" href="#"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"
+              >Messages
+              <span class="badge badge-success">12</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="container-fluid">
+      <h1 class="pt-4 pb-4">Dashboard:</h1>
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th scope="col">Name</th>
+            <th scope="col">Team</th>
+            <th scope="col">All Star</th>
+            <th scope="col">Remove</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">Steph</th>
+            <td>Warriors</td>
+            <td>Yes</td>
+            <td>
+              <button type="button" class="btn btn-danger">
+                <i class="fas fa-trash-alt"></i>
+              </button>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">Lebron</th>
+            <td>Cavaliers</td>
+            <td>Yes</td>
+            <td>
+              <button type="button" class="btn btn-danger">
+                <i class="fas fa-trash-alt"></i>
+              </button>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">Dwayne</th>
+            <td>Heat</td>
+            <td>Yes</td>
+            <td>
+              <button type="button" class="btn btn-danger">
+                <i class="fas fa-trash-alt"></i>
+              </button>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">Kobe</th>
+            <td>Lakers</td>
+            <td>Yes<span class="badge badge-warning">Last</span></td>
+            <td>
+              <button type="button" class="btn btn-danger">
+                <i class="fas fa-trash-alt"></i>
+              </button>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">Isaiah</th>
+            <td>Celtics</td>
+            <td>Yes<span class="badge badge-success">First</span></td>
+            <td>
+              <button type="button" class="btn btn-danger">
+                <i class="fas fa-trash-alt"></i>
+              </button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <hr />
+      <h2 class="my-3">Todos:</h2>
+      <div class="list-group my-2">
+        <a href="#" class="list-group-item list-group-item-success">
+          Feel good about Bootstrap
+        </a>
+        <a href="#" class="list-group-item list-group-item-info">
+          Feel informed about Bootstrap
+        </a>
+        <a href="#" class="list-group-item list-group-item-warning">
+          Feel warned about Bootstrap
+        </a>
+        <a href="#" class="list-group-item list-group-item-warning">
+          Maybe I should read the docs...
+        </a>
+        <a href="#" class="list-group-item list-group-item-danger">
+          Danger zone
+        </a>
+        <a href="#" class="list-group-item list-group-item-danger">
+          I really should read the docs...
+        </a>
+      </div>
+      <!-- 
+      <h2 class="pt-1 pb-1">Todos:</h2>
+      <div class="alert alert-success mt-0 mb-0">
+        Feel good about Bootstrap
+      </div>
+      <div class="alert alert-info mt-0 mb-0">
+        Feel informed about Bootstrap
+      </div>
+      <div class="alert alert-warning mt-0 mb-0" role="alert">
+        Feel warned about Bootstrap
+      </div>
+      <div class="alert alert-warning mt-0 mb-0" role="alert">
+        Maybe I shoud read the docs..
+      </div>
+      <div class="alert alert-danger mt-0 mb-0" role="alert">
+        Danger zone
+      </div>
+      <div class="alert alert-danger mt-0 mb-0" role="alert">
+        <a href="#" class="text-decoration-none"
+          >I really should read the docs...</a
+        >
+      </div>
+    
+    --></div>
+  </body>
+</html>
